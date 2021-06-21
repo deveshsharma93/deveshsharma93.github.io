@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Devesh Sharma - Design Portfolio</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<img class="img-fluid" src="" alt="" />
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+
+	
+	<div id="portfolio" class="section lb">
+		<div class="container">
+			<div class="section-title text-center">
+                <h3>Portfolio</h3>
+            </div><!-- end title -->
+			
+			<div class="gallery-menu row">
+				<div class="col-md-12">
+					<div class="button-group filter-button-group text-left">
+						<button>All</button>
+						<button>Product Design</button>
+						<button>Mechatronics</button>
+						<button class="active">Selected Projects</button>
+                        <button>Personal Projects</button>
+					</div>
+				</div>
+			</div>
+            <br>
+            <div class="row">
+                <div class="col-md-9 col-sm-9 col-lg-9">
+                    <div class="section-title text-left">
+                        <h2>1. Automated Mobile Robot</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3">
+                    <img src="uploads/cu_logo.png" class="img-fluid" alt="post-img" />
+                </div>   
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <div>
+                        <img src="pics_selected/AMR_gif.gif" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/AMR_drawing_2.jpg" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/system_arch_1.png" class="img-fluid" alt="post-img" />
+                        </div>
+                        
+
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <p>
+                        Led a team of 4 graduate students to design and build an automated robot to extract and drop-off a specified package inside a scaled-down version of a fulfillment warehouse. <br />
+                        <p class="text-center"><i>"Only robot among 12 competing robots to succesfully complete all mission objectives in a single-run."</i></p>
+                        </p>
+                        <p>
+                        <h3>Mission Objectives</h3>
+                        <li class="firstli">Navigate autonomously inside the warehouse using QR codes on the ground for localization while avoiding other robots.</li>
+                        <li class="firstli">Find the specified pallet in a 2x5 rack and extract the pallet out of the rack.</li>
+                        <li class="firstli">Drop the extracted pallet onto a specified elevated dock.</li>
+                        <br>
+                        <h3>My Contribution</h3>
+                        <li class="firstli">Designed the complete robot structure and system architecture including the payload extraction mechanism.</li>
+                        <li class="firstli">Sourced and purchased mechanical and electrical components.</li>
+                        <li class="firstli">Assembled the fabricated parts and integrated all the electronics.</li>
+                        <li class="firstli">Developed custom software for lane-following using OpenCV to detect the yellow lines on the ground.</li>
+                        <li class="firstli">System and sub-system level testing and validation.</li>
+                        <br>
+                        <h3>Design Features</h3>
+                        <ol>
+                        <li class="thirdli">Lightweight compact chassis.</li>
+                        <li class="thirdli">Pallet extraction mechanism</li>
+                        <li class="thirdli">Navigation Camera</li>
+                        <li class="thirdli">Drive burshed DC motors</li>
+                        <li class="thirdli">Linear actuator</li>
+                        </ol>
+                        <br>
+                        <h3>Design Materials</h3>
+                        <li class="firstli">Plastic: ABS, Delrin, Acrylic</li>
+                        <li class="firstli">Metal: Aluminum 6061-T6</li>
+                        <br>
+                        <h3>Fabrication</h3>                        
+                        <li class="firstli">Laser cutting</li>
+                        <li class="firstli">3D printing</li>
+                        <li class="firstli">Hand Tools: Drill, Dremel</li>                        
+                        <br>
+                        <h3 class="text-center">Tools Used</h3>
+                        <br>                       
+                        <img src="logo/logo_robot_3.png" class="img-fluid" alt="post-img" />
+                        </p>
+                        
+                        
+
+
+
+                        
+                </div>
+            </div>
+            <br>
+            <br>
+             <div class="row">
+                <div class="col-md-8 col-sm-8 col-lg-8">
+                    <div class="section-title text-left">
+                        <h2>2. ASTEROID MINING SPACECRAFT</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4">
+                    <img src="uploads/nasa_cu_logo.png" class="img-fluid" alt="post-img" />
+                </div>   
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <div>
+                        <img src="pics_selected/CONOPS.jpg" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/softbot_cad_3.png" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/softbot_payload_gif.gif" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/softrobo_gif_2.gif" class="img-fluid" alt="post-img" />
+                        </div>
+                        
+
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <p>
+                        <h3>Sponsor: NASA Innovative Advanced Concepts (NIAC Phase-II)</h3>
+                        <br>
+                        Spearheaded the mechanical design of a novel soft-robotic spacecraft capable of mining regolith from the surface of near-earth rubble-pile asteroids.<br />
+                        </p>
+                        <p>
+                        <h3>My Contribution</h3>
+                        <li class="firstli">Product owner of the complete vehicle structure.</li>
+                        <li class="firstli">Spearheaded all aspects of product development including conceptualization, detailed CAD design, prototyping, validation testing, and production within a timeline of 1-year.</li>
+                        <li class="firstli">Composite</li>
+                        Read More: https://www.nasa.gov/directorates/spacetech/niac/2017_Phase_I_Phase_II/Area_of_Effect_Soft_bots/
+                        <br>
+                        <h3 class="text-center">Tools Used</h3>
+                        <br>                       
+                        <img src="logo/logo_softbot_1.png" class="img-fluid" alt="post-img" />
+                        <br>
+                        Read More: https://www.nasa.gov/directorates/spacetech/niac/2017_Phase_I_Phase_II/Area_of_Effect_Soft_bots/
+                        </p>
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col-md-8 col-sm-8 col-lg-8">
+                    <div class="section-title text-left">
+                        <br>
+                        <h2>3. Unmanned Aircraft</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4">
+                    <img src="uploads/lm_uasdtu_logo.png" class="img-fluid" alt="post-img" />
+                </div>   
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <div>
+                        <img src="pics_selected/aarush_gif_600.gif" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/aarush_crash_1.png" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/system_arch.png" class="img-fluid" alt="post-img" />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                <img src="pics_selected/lg_stress_1.png" class="img-fluid" alt="post-img" />
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                <img src="pics_selected/wing_stress_1.png" class="img-fluid" alt="post-img" />
+                            </div>
+                        </div>
+                        
+
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <p>
+                        The A400 UAS was my first venture into product design and development. From leading the mechanical design of the air-vehicle to supporting product release and deployment, I have been a part of the complete product development lifecycle. The system is Asteria's flagship product and launched the company as a dominant player in India's UAS industry. <br />
+                        </p>
+                        <p>
+                        <h3>My Contribution</h3>
+                        <li class="firstli">Product owner of the complete vehicle structure.</li>
+                        <li class="firstli">Spearheaded all aspects of product development including conceptualization, detailed CAD design, prototyping, validation testing, and production within a timeline of 1-year.</li>
+                        <li class="firstli">Composite</li>
+
+                        <br>
+                        <h3>Design Materials</h3>
+                        <li class="firstli">Plastic</li>
+                        <li class="secondli">ABS, Polcarbonate, Nylon</li>
+                        <li class="firstli">Metal</li>
+                        <li class="secondli">Aluminum: 6061-T6 & 7075-T6</li>
+                        <li class="firstli">Composite</li>
+                        <li class="secondli">Fiber reinforced polymers: CFRP & GFRP</li>
+                        <br>
+                        <h3>Manufacturing Processes</h3>
+                        <li class="firstli">CNC Milling ( 3-axis CNC Routers)</li>
+                        <li class="firstli">Vacuum Casting</li>
+                        <li class="firstli">Injection Molding</li>
+                        <li class="firstli">3D Printing</li>
+                        </p>
+
+                        <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.
+                        </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 col-sm-9 col-lg-9">
+                    <div class="section-title text-left">
+                        <h2>4. AUVSI SUAS Competition</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3">
+                    <img src="uploads/cu_logo.png" class="img-fluid" alt="post-img" />
+                </div>   
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <div>
+                        <img src="pics_selected/maarush_3.png" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/system_arch_uasdtu.png" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/catapult_gif.gif" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/cata_2.png" class="img-fluid" alt="post-img" />
+                        </div>
+                        
+
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                        <p>
+                        The A400 UAS was my first venture into product design and development. From leading the mechanical design of the air-vehicle to supporting product release and deployment, I have been a part of the complete product development lifecycle. The system is Asteria's flagship product and launched the company as a dominant player in India's UAS industry. <br />
+                        </p>
+                        <p>
+                        <h3>My Contribution</h3>
+                        <li class="firstli">Product owner of the complete vehicle structure.</li>
+                        <li class="firstli">Spearheaded all aspects of product development including conceptualization, detailed CAD design, prototyping, validation testing, and production within a timeline of 1-year.</li>
+                        <li class="firstli">Composite</li>
+
+                        <br>
+                        <h3>Design Materials</h3>
+                        <li class="firstli">Plastic</li>
+                        <li class="secondli">ABS, Polcarbonate, Nylon</li>
+                        <li class="firstli">Metal</li>
+                        <li class="secondli">Aluminum: 6061-T6 & 7075-T6</li>
+                        <li class="firstli">Composite</li>
+                        <li class="secondli">Fiber reinforced polymers: CFRP & GFRP</li>
+                        <br>
+                        <h3>Manufacturing Processes</h3>
+                        <li class="firstli">CNC Milling ( 3-axis CNC Routers)</li>
+                        <li class="firstli">Vacuum Casting</li>
+                        <li class="firstli">Injection Molding</li>
+                        <li class="firstli">3D Printing</li>
+                        </p>
+
+                        <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.
+                        </p>
+                </div>
+            </div>
+            
+		</div>
+	</div>
+	 
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contact</a>
+                    </p>
+                    <!--<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Dominic</a> Design By : 
+					<a href="https://html.design/">html design</a></p>-->
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+</body>
+</html>
