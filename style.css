@@ -179,11 +179,14 @@ ul, li, ol{
 	margin: 0px;
 
 	padding: 0px;
+
 }
 
 
 .firstli{
     list-style-type: square;
+    text-indent: -20px; /* key property */
+    margin-left: 20px;
 }
 
 .secondli {
@@ -192,6 +195,7 @@ ul, li, ol{
 }
 
 .thirdli {
+    margin-left: 25px;
     list-style-type: decimal;
 }
 

@@ -60,23 +60,22 @@
               <a class="nav-link js-scroll-trigger active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="index.html#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="index.html#portfolio">Portfolio</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 	
-
 	
 	<div id="portfolio" class="section lb">
 		<div class="container">
@@ -87,14 +86,15 @@
 			<div class="gallery-menu row">
 				<div class="col-md-12">
 					<div class="button-group filter-button-group text-left">
-						<button>All</button>
-						<button>Product Design</button>
-						<button>Mechatronics</button>
-						<button class="active">Selected Projects</button>
-                        <button>Personal Projects</button>
+						<a href="index.html#portfolio"><button >All</button>
+                        <a href="product_design.html"><button>Product Design</button></a>
+                        <a href="mechatronics.html"><button>Mechatronics</button></a>
+                        <a href="selected.html"><button class="active">Selected Projects</button></a>
+                        <a href="personal.html"><button>Personal Projects</button></a>
 					</div>
 				</div>
 			</div>
+            <br>
             <br>
             <div class="row">
                 <div class="col-md-9 col-sm-9 col-lg-9">
@@ -123,7 +123,7 @@
                 <div class="col-md-6 col-sm-6 col-lg-6">
                         <p>
                         Led a team of 4 graduate students to design and build an automated robot to extract and drop-off a specified package inside a scaled-down version of a fulfillment warehouse. <br />
-                        <p class="text-center"><i>"Only robot among 12 competing robots to succesfully complete all mission objectives in a single-run."</i></p>
+                        <p class="text-center"><i>"Only robot among 12 competing robots to succesfully complete all mission objectives in it's maiden run."</i></p>
                         </p>
                         <p>
                         <h3>Mission Objectives</h3>
@@ -138,13 +138,13 @@
                         <li class="firstli">Developed custom software for lane-following using OpenCV to detect the yellow lines on the ground.</li>
                         <li class="firstli">System and sub-system level testing and validation.</li>
                         <br>
-                        <h3>Design Features</h3>
+                        <h3>Design Features (Labelled Figure)</h3>
                         <ol>
-                        <li class="thirdli">Lightweight compact chassis.</li>
+                        <li class="thirdli">Lightweight compact acrylic chassis</li>
                         <li class="thirdli">Pallet extraction mechanism</li>
                         <li class="thirdli">Navigation Camera</li>
-                        <li class="thirdli">Drive burshed DC motors</li>
-                        <li class="thirdli">Linear actuator</li>
+                        <li class="thirdli">Drive motors ( 2x brushed DC)</li>
+                        <li class="thirdli">Linear actuator to raise and lower pallet extractor</li>
                         </ol>
                         <br>
                         <h3>Design Materials</h3>
@@ -168,11 +168,13 @@
                         
                 </div>
             </div>
+
             <br>
             <br>
              <div class="row">
                 <div class="col-md-8 col-sm-8 col-lg-8">
                     <div class="section-title text-left">
+                        <br>
                         <h2>2. ASTEROID MINING SPACECRAFT</h2>
                     </div>
                 </div>
@@ -200,31 +202,46 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6">
                         <p>
-                        <h3>Sponsor: NASA Innovative Advanced Concepts (NIAC Phase-II)</h3>
+                        <h3>Sponsor: NASA Innovative Advanced Concepts (NIAC)</h3>
                         <br>
-                        Spearheaded the mechanical design of a novel soft-robotic spacecraft capable of mining regolith from the surface of near-earth rubble-pile asteroids.<br />
+                        As part of my graduate degree requirement, I worked with a team of 8 graduate students to build a novel soft-robotic spacecraft capable of mining regolith from the surface of near-earth rubble-pile asteroids. The project seeked to continue development of a new type of soft robotic spacecraft, after re-ceiving the NIAC phase II award. I spearheaded the mechanical design of the spacecraft central bus that houses the critical subsystems:  power, thermal, attitude determination and control (ADCS), communications, command and data handling (CDH), and the payload. 
+                        <br>
+                        <br>
+
+                        Learn more about the project here - <a href="https://www.nasa.gov/directorates/spacetech/niac/2017_Phase_I_Phase_II/Area_of_Effect_Soft_bots/" target="_blank">nasa.gov/spacetech/niac/AoES</a>
                         </p>
                         <p>
+                        <h3>Project Objective</h3>
+                        <ol>
+                        <li class="thirdli">Efficiently traverse on rubble pile asteroids (asteroids that consist of numerous pieces of rock, consolidated under the influence of gravity). </li>
+                        <li class="thirdli">Liberate material off the asteroid and launch it off the surface for a mothership to capture and analyze.</li>
+                        </ol>
+                        <br>
+                        <h3>Design Challenges</h3>
+                        <li class="firstli">Mining in a micro-gravity environment.</li>
+                        <li class="firstli">Extreme thermal environment: -190<sup>◦</sup>F to 260<sup>◦</sup>F.</li>
+                        <li class="firstli">Novel design: no previous spacecrafts/technology to refer to.</li>
+                        <br>
                         <h3>My Contribution</h3>
-                        <li class="firstli">Product owner of the complete vehicle structure.</li>
-                        <li class="firstli">Spearheaded all aspects of product development including conceptualization, detailed CAD design, prototyping, validation testing, and production within a timeline of 1-year.</li>
-                        <li class="firstli">Composite</li>
-                        Read More: https://www.nasa.gov/directorates/spacetech/niac/2017_Phase_I_Phase_II/Area_of_Effect_Soft_bots/
+                        <li class="firstli">Conceptualized and evaluated different payload (regolith extraction and launching) mechanisms through design trade studies using Pugh chart and weighted matrix. </li>
+                        <li class="firstli">Designed the preliminary CAD model for the spacecraft and payload. </li>
+                        <li class="firstli">Selected actuators to drive the launch bucket and the mining bucket wheels.</li>
+                        <li class="firstli">Used FMEA to identify critical failure points in the payload mechanism and chassis. </li>
+                        <li class="firstli">Performed thermal and stress analysis as well as micro-gravity simulation of the regolith to validate the chosen design.</li>
                         <br>
                         <h3 class="text-center">Tools Used</h3>
                         <br>                       
                         <img src="logo/logo_softbot_1.png" class="img-fluid" alt="post-img" />
-                        <br>
-                        Read More: https://www.nasa.gov/directorates/spacetech/niac/2017_Phase_I_Phase_II/Area_of_Effect_Soft_bots/
                         </p>
                 </div>
             </div>
-
+            <br>
+            <br>
              <div class="row">
                 <div class="col-md-8 col-sm-8 col-lg-8">
                     <div class="section-title text-left">
                         <br>
-                        <h2>3. Unmanned Aircraft</h2>
+                        <h2>3. Unmanned Aircraft Design</h2>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-lg-4">
@@ -232,16 +249,18 @@
                 </div>   
                 <div class="col-md-6 col-sm-6 col-lg-6">
                         <div>
-                        <img src="pics_selected/aarush_gif_600.gif" class="img-fluid" alt="post-img" />
+                        <img src="pics_selected/aarush_gif_600_1.gif" class="img-fluid" alt="post-img" />
+                        </div>
+                        <br>
+                        <div>
+                        <img src="pics_selected/aarush_cad.png" class="img-fluid" alt="post-img" />
                         </div>
                         <br>
                         <div>
                         <img src="pics_selected/aarush_crash_1.png" class="img-fluid" alt="post-img" />
                         </div>
+                        
                         <br>
-                        <div>
-                        <img src="pics_selected/system_arch.png" class="img-fluid" alt="post-img" />
-                        </div>
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-lg-6">
                                 <img src="pics_selected/lg_stress_1.png" class="img-fluid" alt="post-img" />
@@ -255,42 +274,84 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6">
                         <p>
-                        The A400 UAS was my first venture into product design and development. From leading the mechanical design of the air-vehicle to supporting product release and deployment, I have been a part of the complete product development lifecycle. The system is Asteria's flagship product and launched the company as a dominant player in India's UAS industry. <br />
+                        <h3>Sponsor: Lockheed Martin Aeronautics (350,000$)</h3>
+                        During my freshman year in undergrad, I was selected to be a part of UAS-DTU - a student led team developing aerial robots, in the airframe design team. The team had just been sponsored by Lockheed Martin to develop a next-generation unmanned aerial system. The design requirements were set based on concept of operations (CONOPS) provided by lockheed's system engineers. The first prototype was manufactured by a composite manufacturer in India, but all the later aircrafts were built in-house utilizing vacuum assisted molding on MDF and fiberglass molds. <br />
                         </p>
                         <p>
                         <h3>My Contribution</h3>
-                        <li class="firstli">Product owner of the complete vehicle structure.</li>
-                        <li class="firstli">Spearheaded all aspects of product development including conceptualization, detailed CAD design, prototyping, validation testing, and production within a timeline of 1-year.</li>
-                        <li class="firstli">Composite</li>
-
+                        <li class="firstli">Designed the landing gear, wings and fuselage assembly, and MDF molds.</li>
+                        <li class="firstli">Developed Matlab scripts for aircraft preliminary sizing.</li>
+                        <li class="firstli">Set up composite fabrication capability in-house saving 40,000$ in outsourcing costs.</li>
+                        <li class="firstli">Created the composite layup sequence for the structure using custom matlab scripts and FEA analysis.</li>
+                        <li class="firstli">Fabricated the composite panels using vacuum assisted resin transfer and wet layup molding. </li>
+                        <li class="firstli">Designed and built fixtures to assemble the aircraft panels. </li>
+                        <li class="firstli">Piloted the aircraft during flight testing. </li>
+                        <br>
+                        <h3>Aircraft Performance Specs</h3>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                <b>Weight</b>
+                                </br>
+                                <b>Wingspan</b>
+                                </br>
+                                <b>Endurance</b>
+                                </br>
+                                <b>Propulsion</b>
+                                </br>
+                                <b>Payload Capacity</b>
+                                </br>
+                                <b>Construction</b>
+                                </br>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                48 kg (105 lbs)
+                                </br>
+                                3.6 m (12 ft)
+                                </br>
+                                8 hrs (Gas) / 2 hrs (Electric)
+                                </br>
+                                5 Hp (Gas) / 5000 W (Electric)
+                                </br>
+                                10 kg (22 lbs)
+                                </br>
+                                Composite (FRP)                              
+                            </div>
+                        </div>
                         <br>
                         <h3>Design Materials</h3>
-                        <li class="firstli">Plastic</li>
-                        <li class="secondli">ABS, Polcarbonate, Nylon</li>
-                        <li class="firstli">Metal</li>
-                        <li class="secondli">Aluminum: 6061-T6 & 7075-T6</li>
-                        <li class="firstli">Composite</li>
-                        <li class="secondli">Fiber reinforced polymers: CFRP & GFRP</li>
+                        <li class="firstli">FRP Composites: Carbon Fiber, Glass Fiber, Kevlar, and Divinylcell Foam-core </li>
+                        <li class="firstli">Metal: Aluminum (6061-T6)</li>
+                        <li class="firstli">Plastic: Nylon, Polycarbonate</li>
+                        <li class="firstli">Aircraft Grade Plywood (Birch)</li>
+                        
                         <br>
-                        <h3>Manufacturing Processes</h3>
-                        <li class="firstli">CNC Milling ( 3-axis CNC Routers)</li>
-                        <li class="firstli">Vacuum Casting</li>
-                        <li class="firstli">Injection Molding</li>
-                        <li class="firstli">3D Printing</li>
+                        <h3>Fabrication Processes</h3>
+                        <li class="firstli">Vacuum Assisted Resin Transfer and Wet Lay-up  Molding</li>
+                        <li class="firstli">CNC Milling (3-axis CNC Routers)</li>
+                        <li class="firstli">Laser Cutting</li>
+                        <li class="firstli">CNC Hot Wire Foam Cutting</li>
+                        <li class="firstli">Rotary Tools (Dremel)</li>
                         </p>
 
-                        <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.
+                        <p>
+                        <br>
+                        <h3 class="text-center">Tools Used</h3>
+                        <br>                       
+                        <img src="logo/logo_uasdtu.png" class="img-fluid" alt="post-img" />
                         </p>
                 </div>
             </div>
+            <br>
+            <br>
             <div class="row">
                 <div class="col-md-9 col-sm-9 col-lg-9">
                     <div class="section-title text-left">
+                        <br>
                         <h2>4. AUVSI SUAS Competition</h2>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3">
-                    <img src="uploads/cu_logo.png" class="img-fluid" alt="post-img" />
+                <div class="col-md-3 col-sm-3 col-lg-3 text-right">
+                    <img src="uploads/uasdtu_logo_2.png" class="img-fluid" alt="post-img" />
                 </div>   
                 <div class="col-md-6 col-sm-6 col-lg-6">
                         <div>
@@ -302,42 +363,40 @@
                         </div>
                         <br>
                         <div>
-                        <img src="pics_selected/catapult_gif.gif" class="img-fluid" alt="post-img" />
+                        <img src="pics_selected/cata_2.png" class="img-fluid" alt="post-img" />
                         </div>
                         <br>
                         <div>
-                        <img src="pics_selected/cata_2.png" class="img-fluid" alt="post-img" />
+                        <img src="pics_selected/catapult_gif_1.gif" class="img-fluid" alt="post-img" />
                         </div>
                         
 
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6">
                         <p>
-                        The A400 UAS was my first venture into product design and development. From leading the mechanical design of the air-vehicle to supporting product release and deployment, I have been a part of the complete product development lifecycle. The system is Asteria's flagship product and launched the company as a dominant player in India's UAS industry. <br />
+                        During my undergrad, I led a team of undergraduate students as the system design lead to build unmanned aerial robots to compete in the AUVSI SUAS competition held in Maryland, USA. The robot had to complete a series of tasks within a 40 mins time window such as autonomous flight (including takeoff and landing), obstacle avoidance, object detection and identification, and aerial delivery.
+                        <br>
+                        <br>
+                        Learn more about the competition here - <a href="https://www.auvsi-suas.org/" target="_blank">auvsi-suas.org</a>  <br />
+                        </p>
+                        <p>
+                        <h3 class="text-center">Achievement</h3>
+                        <p class="text-center">2014: <b>3<sup>rd</sup></b> out of 48 teams</br>2013: <b>6<sup>th</sup></b> out of 45 teams</br>2012: <b>3<sup>rd</sup></b> out of 29 teams
                         </p>
                         <p>
                         <h3>My Contribution</h3>
-                        <li class="firstli">Product owner of the complete vehicle structure.</li>
-                        <li class="firstli">Spearheaded all aspects of product development including conceptualization, detailed CAD design, prototyping, validation testing, and production within a timeline of 1-year.</li>
-                        <li class="firstli">Composite</li>
-
+                        <li class="firstli">Developed the system architecture based on mission objectives and selected components.</li>
+                        <li class="firstli">Designed composite aircraft structures and fabricated them using resin-transfer vacuum molding.</li>
+                        <li class="firstli">Identified and worked with local vendors and manufacturers for mold and metal fabrication.</li>
+                        <li class="firstli">Designed and built a catapult launcher to facilitate autonomous take-off in the 2014 competition.</li>
+                        <li class="firstli">Integrated avionics in the fuselage.</li>
+                        <li class="firstli">Built 2-axis gyro-stabilized gimbals (roll & pitch) for the onboard DSLR cameras used for object detection.</li>
+                        <li class="firstli">Piloted the aircraft systems during field-testing.</li>
                         <br>
-                        <h3>Design Materials</h3>
-                        <li class="firstli">Plastic</li>
-                        <li class="secondli">ABS, Polcarbonate, Nylon</li>
-                        <li class="firstli">Metal</li>
-                        <li class="secondli">Aluminum: 6061-T6 & 7075-T6</li>
-                        <li class="firstli">Composite</li>
-                        <li class="secondli">Fiber reinforced polymers: CFRP & GFRP</li>
-                        <br>
-                        <h3>Manufacturing Processes</h3>
-                        <li class="firstli">CNC Milling ( 3-axis CNC Routers)</li>
-                        <li class="firstli">Vacuum Casting</li>
-                        <li class="firstli">Injection Molding</li>
-                        <li class="firstli">3D Printing</li>
-                        </p>
+                        <h3 class="text-center">Tools Used</h3>
+                        <br>                       
+                        <img src="logo/logo_uasdtu_1.png" class="img-fluid" alt="post-img" />
 
-                        <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.
                         </p>
                 </div>
             </div>
